@@ -1,0 +1,2 @@
+# sti
+Statistical Teaching Inventory
