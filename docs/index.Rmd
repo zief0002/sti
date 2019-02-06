@@ -1,0 +1,129 @@
+---
+title: " "
+output:
+  rmdformats::material:
+    highlight: kate
+    css: website-style.css
+bibliography: sti.bib
+csl: apa.csl
+---
+
+
+```{r knitr_init, echo=FALSE, cache=FALSE}
+library(knitr)
+library(rmdformats)
+library(fontawesome)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+
+# Statistics Teaching Inventory
+
+The Statistics Teaching Inventory (STI) is an instrument designed to assess the instructional practices and beliefs of instructors of introductory statistics courses. Initially designed as part of the NSF-funded project [Evaluation and Assessment of Teaching and Learning about Statistics (e-ATLAS; NSF DUE-1044812 & 1043141)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1044812), the current version of the STI (v.2) consists of approximately 87 items formatted into seven sections:
+
+(1) Pedagogy;
+(2) Curricular emphasis;
+(3) Technology;
+(4) Assessment;
+(5) Beliefs;
+(6) Course characteristics; and 
+(7) Instructor/institutional characteristics.
+
+
+Currently there are four different forms of the STI for varying instructional settings: 
+
+- Face-to-face course (no lab/recitation session led by a teaching assistant);
+- Face-to-face course (with lab/recitation session led by a teaching assistant);
+- Completely online course; and
+- Hybrid course (mixture of face-to-face and online).
+
+
+# Development Process
+
+### Developing the Instrument
+
+The STI (v.1), which initially included 102 items, went through a rigorous development and evaluation process, including an online pilot administration with 101 voluntary USCOTS participants during the late spring and early summer of 2009. Cognitive interview data from 16 of the pilot respondents was also also collected and analyzed as part of the validation process. For more detail regarding the development of the STI instrument, as well as, analyses of the pilot administration data, see:
+
+- Zieffler, A., Park, J., Garfield, J., delMas, R., &amp; Bjornsdottir, A. (2012). [The Statistics Teaching Inventory: A survey on statistics teachers' classroom practices and beliefs](http://jse.amstat.org/v20n1/zieffler.pdf). *Journal of Statistics Education, 20*(1), 1&ndash;29. 
+
+
+Based on the pilot and interview data collected, the STI was revised to include 87 items; STI (v.2). It was at this time that items corresponding to the same content were grouped together into seven sections, namely: (1) Pedagogy; (2) Curricular emphasis; (3) Technology; (4) Assessment; (5) Beliefs; (6) Course characteristics; and (7) instructor/institution characteristics.
+
+
+### Adapting the STI to Different Instructional Formats
+
+Initially, the STI was developed for instructors teaching in a face-to-face format. Given the popularity of online and hybrid courses, limiting the administration of the STI to face-to-face instructors was a severe limitation if the instrument was to be used in the type of large, national study proposed in the e-ATLAS project. In addition, items on the STI were written for instructors of courses which did not have a recitation section being led by a teaching assistant. This also limited the potential sample. To overcome these limitations, four different forms of the STI were developed for varying instructional settings: 
+
+- Face-to-face course (no lab/recitation session led by a teaching assistant);
+- Face-to-face course (with lab/recitation session led by a teaching assistant);
+- Completely online course; and
+- Hybrid course (mixture of face-to-face and online).
+
+The first form developed was for instructors of face-to-face courses with no lab/recitation sessions (Form 1). The form was sent to an expert reviewer, a statistics education researcher with much experience in assessment research, and was revised various times based on feedback. This form was then adapted for courses that included lecture/recitation sessions (Form 2). The adaptations for this form primarily included small changes to item stems. For example, the items that asked about "the instructor” were changed to “the instructor or TA". Four additional items were added to the *Pedagogy* section of this form that asked about the time spent on certain teaching methods during the recitation section. Lastly, the item responses for one item from the face-to-face form were expanded to allow for the potential of a broader TA role in these courses.
+
+To create the forms for completely online courses (Form 3) and hybrid courses (Form 4), the initial face-to-face form was again modified. Most of the adaptations for these forms, again, came from changes to the item stems. The largest modifications were made to an item asking about the frequency with which course content was presented primarily via lecture. For Form 3, this item was changed from “lecture” to “audio or video lectures” to better reflect practices in the online environment. An additional item was also included to Form 3 that asked whether the course content was presented primarily via readings. Form 4 kept the same item as the face-to-face form, and also included the two additional items from Form 3.
+
+```{r echo=FALSE, message=FALSE}
+library(dplyr)
+library(knitr)
+library(kableExtra)
+
+tab_01 = data.frame(
+  Section = c("Pedagogy", "Curricular emphasis", "Technology", "Assessment", "Beliefs", "Course characteristics", 
+              "Instructor/Institutional Characteristics", "Total"),
+  Form_1 = c(10, 10, 10, 7, 17, 12, 21, 87),
+  Form_2 = c(14, 10, 10, 7, 17, 13, 21, 92),
+  Form_3 = c(11, 10, 10, 7, 17, 12, 21, 88),
+  Form_4 = c(12, 10, 10, 7, 17, 12, 21, 89)
+)
+
+kable(
+  tab_01, 
+  col.names = c("Section", "Form 1", "Form 2", "Form 3", "Form 4"),
+  align = c("l", "c", "c", "c", "c"),
+  caption = "Number of Items Included in Each Section of the STI for the Four Forms."
+  ) %>%
+  row_spec(8, bold = TRUE)
+
+```
+
+### Piloting Forms
+
+In the summer of 2012, each of the four forms was administered during an online pilot. A total of nine instructors (at three different institutions) piloted the instrument. Three instructors took the face-to-face (with no lab/recitation) form, one took the face-to-face with a lab/recitation form, three took the completely online form, and two instructors took the hybrid course form. Each of these respondents also provided detailed comments and feedback on specific questions and on the instrument as a whole. Based on this feedback, revisions were made to each form. These revisions were to shorten the instrument and add clarification to some of the items. 
+
+After these revisions were made, a statistics education expert, who had also taken part in the piloting process, reviewed the four forms. The feedback from this review led to a few more minor revisions of each form. All four forms were finalized during August of 2012 and formatted online using the survey platform [Qualtrics](https://www.qualtrics.com/). An initial item related to format of the course was also added. After the instructor indicated course format, the online instrument prompted the instructor to the appropriate form. 
+
+
+<!-- ### Large-Scale Administration of Forms -->
+
+<!-- After finalizing the four forms of the STI, a random sample of introductory statistics instructors were emailed and invited to participate in the research by completing the STI. Using the Carnegie Foundation for the Advancement of Teaching database of institutions of higher education, colleges and universities were placed into one of four strata defined by the highest degree awarded at the institution, and a random sample of schools was then selected from each strata using proportional weighting. The final sample consisted of 133 institutions: -->
+
+<!-- (1) Ph.D. (*n* = 19);  -->
+<!-- (2) Master’s degree (*n* = 29);  -->
+<!-- (3) Baccalaureate degree (*n* = 27); and  -->
+<!-- (4) Associate’s degree (*n* = 58).  -->
+
+
+<!-- For each school selected into the sample, an attempt was made to identify all the introductory statistics courses, and the corresponding instructor, using course catalogs. Courses were identified in a variety of departments outside of statistics, including mathematics, science, psychology, and business. Each course identified at the institution was randomly assigned a number from 1 to *k* (where *k* was the number of courses identified at the school). The instructor of "Course \#1" was contacted via email and invited to take the STI. If the instructor did not respond within three weeks, the instructor of "Course \#2" was contacted. After another three weeks, if neither of the first two instructors responded, the instructor of "Course \#3" was contacted, etc. -->
+
+<!-- E-mail invitations were sent in multiple rounds during the summer of 2013. In the initial round, instructors from 50 institutions were invited to participate. After this round, there was only a response rate of about 10\%, so an incentive (a drawing for a \$100 Amazon.com gift card) was added. In the second round, instructors from 43 additional institutions were contacted. In the final round, instructors from the remaining 40 sampled institutions were contacted. In sum, 400 total instructors from this random sample received invitations to take the STI, and of these, 98 responded (24.5\% response rate).  -->
+
+
+
+
+
+# Using the STI
+
+The STI instrument 
+
+
