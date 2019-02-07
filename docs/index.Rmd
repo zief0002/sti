@@ -124,6 +124,17 @@ After these revisions were made, a statistics education expert, who had also tak
 
 # Using the STI
 
-The STI instrument 
+The STI instrument is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/), which means that you are free to use, adapt, and share those adaptions so long as it is not for commerical work. The STI instrument is available as .doc files from our github site: https://github.com/zief0002/sti
 
+To download the most current version of the STI click here.
+
+
+
+### License and Attribution
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Statistics Teaching Inventory</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://zief0002.github.io/sti/" property="cc:attributionName" rel="cc:attributionURL">Joan Garfield, Robert delMas, and Andrew Zieffler</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+
+To cite the STI use:
+
+- Garfield, J., delMas, R., &amp; Zieffler, A. (2012). Statistics Teaching Inventory (v.2) [Instrument]. Retrieved from https://zief0002.github.io/sti/
 
