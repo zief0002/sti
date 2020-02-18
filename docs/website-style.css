@@ -53,3 +53,9 @@ table tbody tr {
   border-bottom: 1px solid black;
 }
 
+
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+} 
+

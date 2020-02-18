@@ -137,4 +137,40 @@ To cite the STI use:
 - Zieffler, A., Park, J., Garfield, J., delMas, R., &amp; Bjornsdottir, A. (2012). [The Statistics Teaching Inventory: A survey on statistics teachers' classroom practices and beliefs](http://jse.amstat.org/v20n1/zieffler.pdf). *Journal of Statistics Education, 20*(1), 1&ndash;29. 
 
 
+# Graduate Student Research Day 2020
+
+<div>
+<a href="extras/gsrd-2020-2020-02-18.pdf"><img style="margin-left:auto; margin-right:auto;" src="img/poster.svg"></a>
+</div>
+
+
+### Abstract
+
+The Statistics Teaching Inventory (STI) is designed to gain insight into pedagogical practices and content in introductory statistics courses. It has been updated to reflect current trends and recommendations in statistics education. Recent guidelines in statistics education argue for teaching more computing and data structure skills. To determine the extent these goals are put into practice, the STI was updated. The purpose of this poster is to display results of the modified survey to capture the current state of introductory statistics courses and to provide initial results after administration of the updated survey in Fall 2019. 
+
+To update the survey, items from the previous version of the STI were modified or eliminated; new items were added in response to recent statistics education and survey research. After revisions to the previous version of the STI, think-aloud interviews were conducted with experts in statistics education and data science. Qualitative analysis of the interview data provided insight into the clarity of items and how adequately the survey aligned with recommended practices. This data informed additional modifications to the survey and provided validity evidence for future research with the STI. 
+
+Results of the data collected in Fall 2019 indicated that most courses are not giving students experience with data structures or computing. Though students are being exposed to real data, the data often contains fewer than three variables and uses only a small number of cases. The students are not typically exposed to methods of getting data into useable form. The use of syntax driven software is only common in four-year colleges and universities. Courses that do focus on code, do not emphasize essential skills such as to creating, modifying, reading, and debugging code. The results indicate that, despite increasing recommendations for their inclusion, computing skills are not yet widely taught.
+
+
+
+### References
+
+<p class="hangingindent">American Statistical Association. (2014). Curriculum guidelines for undergraduate programs in statistical science. Author. https://www.amstat.org/asa/files/pdfs/EDU-guidelines2014-11-15.pdf</p>
+
+<p class="hangingindent">American Statistical Association. (2016). Guidelines for assessment and instruction in statistics education: College report. Author. http://www.amstat.org/education/gaise/</p>
+
+<p class="hangingindent">DeLiema, D., Dahn, M. Flood, V. J., Asuncion, A., Abrahamson, D., Enyedy, N., &amp; Steen, F. F. (2020). Debugging as a context for collaborative reflection on problem-solving processes. In E. Manolo (Ed.), *Deeper learning, communicative competence, and critical thinking: Innovative, research-based strategies for development in 21st century classrooms* (pp. 209&ndash;228). Routledge.</p>
+
+<p class="hangingindent">Horton, N. (2015). Challenges and opportunities for statistics and statistical education: Looking back, looking forward. *The American Statistician, 69*(2), 138&ndash;145. https://doi.org/10.1080/00031305.2015.1032435</p>
+
+<p class="hangingindent">National Academies of Sciences, Engineering, and Medicine. (2018). *Data science for undergraduates: Opportunities and options.* The National Academies Press. https://doi.org/10.17226/25104</p>
+
+<p class="hangingindent">Nolan, D., &amp; Temple Lang, D. (2010). Computing in the statistics curricula. *The American Statistician, 64*(2), 97&ndash;107. https://doi.org/10.1198/tast.2010.09132</p>
+
+<p class="hangingindent">Weintrop, D., Beheshti, E., Horn, M., Orton, K., Jona, K., Trouille, L., &amp; Wilensky, U. (2016). Defining computational thinking for mathematics and science classrooms. *Journal of Science Education and Technology, 25*(1), 127&ndash;147. https://doi.org/10.1007/s10956-015-9581-5</p>
+
+<p class="hangingindent">Zieffler, A., Park, J., Garfield, J., Delmas, R., &amp; Bjornsdottir, A. (2012). The Statistics Teaching Inventory: A survey on statistics teachers' classroom practices and beliefs. *Journal of Statistics Education, 20*(1). https://doi.org/10.1080/10691898.2012.11889632</p>
+
+
 
