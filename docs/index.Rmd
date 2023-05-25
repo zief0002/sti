@@ -56,6 +56,8 @@ The STI (v.1), which initially included 102 items, went through a rigorous devel
 
 Based on the pilot and interview data collected, the STI was revised to include 87 items; STI (v.2). It was at this time that items corresponding to the same content were grouped together into seven sections, namely: (1) Pedagogy; (2) Curricular emphasis; (3) Technology; (4) Assessment; (5) Beliefs; (6) Course characteristics; and (7) instructor/institution characteristics.
 
+In 2019, the STI (v. 3) was again adapted to focus only on the teaching practices of statistics instructors---all beliefs items were dropped from the instrument. Additional items related to computation and modern data practices were also included on the instrument, as well as items tapping recommendations in the 2016 GAISE document. 
+
 
 ### Adapting the STI to Different Instructional Formats
 
@@ -88,7 +90,7 @@ kable(
   tab_01, 
   col.names = c("Section", "Form 1", "Form 2", "Form 3", "Form 4"),
   align = c("l", "c", "c", "c", "c"),
-  caption = "Number of Items Included in Each Section of the STI for the Four Forms."
+  caption = "Number of Items Included in Each Section of the STI (v.2) for the Four Forms."
   ) %>%
   row_spec(8, bold = TRUE)
 
@@ -113,13 +115,17 @@ After these revisions were made, a statistics education expert, who had also tak
 
 <!-- E-mail invitations were sent in multiple rounds during the summer of 2013. In the initial round, instructors from 50 institutions were invited to participate. After this round, there was only a response rate of about 10\%, so an incentive (a drawing for a \$100 Amazon.com gift card) was added. In the second round, instructors from 43 additional institutions were contacted. In the final round, instructors from the remaining 40 sampled institutions were contacted. In sum, 400 total instructors from this random sample received invitations to take the STI, and of these, 98 responded (24.5\% response rate).  -->
 
-
+The third version of the instrument (STI v.3) went back to a single form given to all instructors, regardless of course modality. Items asking about the course modality were included to capture differences.
 
 
 
 # Using the STI
 
-The four STI forms are available as both .DOCX and PDF files from our [github site](https://github.com/zief0002/sti). Or, [click here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/zief0002/sti/tree/master/sti-instrument) to download the files directly.
+The four STI (v.2) forms are available as both .DOCX and PDF files from our [github site](https://github.com/zief0002/sti).
+
+The STI (v. 3) form is also available as a PDF files from our [github site](https://github.com/zief0002/sti). 
+
+Or, [click here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/zief0002/sti/tree/master/sti-instrument) to download all the files directly.
 
 
 ### Licensing
@@ -180,6 +186,27 @@ Results of the data collected in Fall 2019 indicated that most courses are not g
 <p class="hangingindent">Weintrop, D., Beheshti, E., Horn, M., Orton, K., Jona, K., Trouille, L., &amp; Wilensky, U. (2016). Defining computational thinking for mathematics and science classrooms. *Journal of Science Education and Technology, 25*(1), 127&ndash;147. https://doi.org/10.1007/s10956-015-9581-5</p>
 
 <p class="hangingindent">Zieffler, A., Park, J., Garfield, J., Delmas, R., &amp; Bjornsdottir, A. (2012). The Statistics Teaching Inventory: A survey on statistics teachers' classroom practices and beliefs. *Journal of Statistics Education, 20*(1). https://doi.org/10.1080/10691898.2012.11889632</p>
+
+
+
+# USCOTS 2023
+
+
+
+<div style="width: 20%; float:right; margin-top:-25px; margin-right: 35px;">
+<img src="img/poster2.png" >
+</div>
+
+<br />
+
+[Click here to download a PDF copy of the poster!](https://github.com/zief0002/sti/raw/master/docs/extras/uscots-2023-poster-2023-05-15.pdf)
+
+<br /><br />
+
+
+### Abstract
+
+The poster reports on some of the major findings from the data collected in 2019 using the Statistics Teaching Inventory (STI v. 3). This instrument measures the teaching practices of instructors of introductory statistics in a variety of institutions and departments. Participants were recruited using email invitations sent to members of five statistics education mailing lists: Isostat, CAUSE, ASA Section on Statistics and Data Science Education, AMATYC, and the MAA Section on Statistics Education. A total of 228 usable responses were obtained including: 54 respondents (23.7\%) from two-year colleges, 87 from four-year colleges (38.2\%), and 87 from universities (38.2\%); where "University" was defined as an institution that grants advanced degrees.  The findings allow us to gain insight into the extent to which current pedagogical practices align with GAISE recommendations. They also help tp inform the broader statistics education community about current pedagogical, assessment, and curricular trends.
 
 
 
