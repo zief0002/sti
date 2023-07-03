@@ -100,6 +100,8 @@ In the summer of 2012, each of the four forms was administered during an online 
 
 After these revisions were made, a statistics education expert, who had also taken part in the piloting process, reviewed the four forms. The feedback from this review led to a few more minor revisions of each form. All four forms were finalized during August of 2012 and formatted online using the survey platform [Qualtrics](https://www.qualtrics.com/). An initial item related to format of the course was also added. After the instructor indicated course format, the online instrument prompted the instructor to the appropriate form. 
 
+- Fry, E. B., Garfield, J., Pearl, D., Zieffler, A., &amp; delMas, R. (2014). [Statistics Teaching Inventory: Report of data collected in 2013](https://github.com/zief0002/sti/raw/master/docs/extras/sti-2014-executive-report.pdf). Unpublished executive report. University of Minnesota, Minneapolis. 
+
 
 <!-- ### Large-Scale Administration of Forms -->
 
